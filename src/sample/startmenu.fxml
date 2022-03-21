@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.startmenuController">
+   <children>
+      <ImageView fitHeight="606.0" fitWidth="400.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/menu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="263.0" fitWidth="253.0" layoutX="48.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/shah.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="signin" fitHeight="56.0" fitWidth="151.0" layoutX="124.0" layoutY="189.0" onMouseClicked="#tosigninpage" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/signin.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="signup" fitHeight="56.0" fitWidth="151.0" layoutX="124.0" layoutY="272.0" onMouseClicked="#tosignuppage" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/signup.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.signinginConroller">
+   <children>
+      <ImageView fitHeight="606.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/menu.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="username" layoutX="124.0" layoutY="141.0" prefHeight="40.0" prefWidth="168.0" promptText="usernsme">
+         <font>
+            <Font name="36 days ago BRK" size="20.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="passwrod" layoutX="124.0" layoutY="204.0" prefHeight="40.0" prefWidth="168.0" promptText="password">
+         <font>
+            <Font name="36 days ago BRK" size="22.0" />
+         </font>
+      </PasswordField>
+      <Text fx:id="forgetalert" fill="#ff0202" layoutX="134.0" layoutY="327.0" stroke="#030303" strokeType="OUTSIDE" strokeWidth="0.3" text="Forget your password" underline="true" wrappingWidth="200.53668212890625">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="back" fitHeight="40.0" fitWidth="115.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#tomenu" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/back.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="signin" fitHeight="40.0" fitWidth="138.0" layoutX="145.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/signin.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="existalert" fill="#ee0f0f" layoutX="82.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="user with these information dosent exists" />
+      <ImageView fitHeight="144.0" fitWidth="313.0" layoutX="52.0" layoutY="366.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/chess.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

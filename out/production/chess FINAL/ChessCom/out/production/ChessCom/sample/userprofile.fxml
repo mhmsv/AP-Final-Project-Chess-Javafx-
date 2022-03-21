@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="606.0" fitWidth="400.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@menu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="263.0" fitWidth="253.0" layoutX="48.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@shah.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="124.0" layoutY="141.0" prefHeight="40.0" prefWidth="168.0" text="inja user oad mishe">
+         <font>
+            <Font name="36 days ago BRK" size="13.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="40.0" fitWidth="115.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="121.0" layoutX="265.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@done.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="83.0" fitWidth="130.0" layoutX="154.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@defaultprofile.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="124.0" layoutY="199.0" prefHeight="40.0" prefWidth="168.0" text="inja name load mishe">
+         <font>
+            <Font name="36 days ago BRK" size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="221.0" layoutY="260.0" prefHeight="40.0" prefWidth="87.0" text="load rank">
+         <font>
+            <Font name="36 days ago BRK" size="20.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="40.0" fitWidth="95.0" layoutX="100.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@rank.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="168.0" layoutX="197.0" layoutY="364.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@startlogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="143.0" layoutX="197.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@tournoment.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

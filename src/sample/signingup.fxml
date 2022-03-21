@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.signingupController">
+   <children>
+      <ImageView fitHeight="606.0" fitWidth="400.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/menu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="263.0" fitWidth="253.0" layoutX="48.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/shah.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="username" layoutX="124.0" layoutY="141.0" prefHeight="40.0" prefWidth="168.0" promptText="usernsme">
+         <font>
+            <Font name="36 days ago BRK" size="20.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="password" layoutX="124.0" layoutY="251.0" prefHeight="40.0" prefWidth="168.0" promptText="password">
+         <font>
+            <Font name="36 days ago BRK" size="22.0" />
+         </font>
+      </PasswordField>
+      <ImageView fx:id="done" fitHeight="40.0" fitWidth="121.0" layoutX="265.0" layoutY="14.0" onMouseClicked="#done" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/done.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="back" fitHeight="40.0" fitWidth="97.0" layoutX="14.0" layoutY="16.0" onMouseClicked="#tomenu" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/back.png" />
+         </image></ImageView>
+      <ImageView fx:id="profilepic" fitHeight="83.0" fitWidth="130.0" layoutX="154.0" layoutY="43.0" onMouseClicked="#setProfilepic" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/defaultprofile.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="name" layoutX="124.0" layoutY="199.0" prefHeight="40.0" prefWidth="168.0" promptText="name">
+         <font>
+            <Font name="36 days ago BRK" size="20.0" />
+         </font>
+      </TextField>
+      <Text fx:id="infoSaved" fill="#ff0505" layoutX="157.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Info saved" visible="false">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="alert" fill="RED" layoutX="99.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="please complete all fields" visible="false" wrappingWidth="216.19384765625">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
