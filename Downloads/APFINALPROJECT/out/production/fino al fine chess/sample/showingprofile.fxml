@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.showingprofileController">
+   <children>
+      <ImageView fitHeight="606.0" fitWidth="400.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/menu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="263.0" fitWidth="253.0" layoutX="48.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/shah.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="username" layoutX="124.0" layoutY="141.0" prefHeight="40.0" prefWidth="168.0" text="inja user oad mishe">
+         <font>
+            <Font name="36 days ago BRK" size="13.0" />
+         </font>
+      </TextField>
+      <ImageView fx:id="edit" fitHeight="40.0" fitWidth="121.0" layoutX="265.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/edit.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="back" fitHeight="40.0" fitWidth="108.0" layoutX="31.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="profilepic" fitHeight="83.0" fitWidth="130.0" layoutX="154.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/defaultprofile.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="name" layoutX="124.0" layoutY="199.0" prefHeight="40.0" prefWidth="168.0" text="inja name load mishe">
+         <font>
+            <Font name="36 days ago BRK" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="loadrank" layoutX="221.0" layoutY="260.0" prefHeight="40.0" prefWidth="87.0" text="load rank">
+         <font>
+            <Font name="36 days ago BRK" size="20.0" />
+         </font>
+      </TextField>
+      <ImageView fx:id="rank" fitHeight="40.0" fitWidth="95.0" layoutX="100.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/rank.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="play" fitHeight="50.0" fitWidth="168.0" layoutX="197.0" layoutY="405.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tournoments" fitHeight="50.0" fitWidth="143.0" layoutX="197.0" layoutY="481.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/tournoments.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="recent" fitHeight="35.0" fitWidth="87.0" layoutX="165.0" layoutY="307.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/recent.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
